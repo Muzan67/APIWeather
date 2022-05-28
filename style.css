@@ -3,6 +3,7 @@
     color: #fff;
     color: #1656b6;
     color: #0000;
+    color: #19334d;
 }
 
 .header {
@@ -61,4 +62,24 @@ div.current-weather h2, div.current-weather h3 {
 
 span#uv-index {
     color: #fff;
+}
+
+/* Daily Weather Forecast for 5 Days*/
+
+div.five-day h2 {
+    font-size: 1.2rem;
+}
+
+div.five-day p {
+    font-size: .8rem;
+}
+
+div.five-day, p.card-title {
+    font-weight: bold;
+    color:#fff;
+    background-color: #19334d;
+}
+
+.card {
+    background-color: #0276fd;
 }
