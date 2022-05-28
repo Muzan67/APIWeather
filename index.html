@@ -21,6 +21,7 @@
             <h1>Weather Dashboard</h1>
         </div>
     </header>
+    
 <main class ="container dashboard">
     <div class="row p-2">
 
@@ -40,12 +41,12 @@
     <p class="pl-2">Wind: <span id="wind"></span>MPH</p>
     <p class="pl-2">Humidity: <span id="humidity"></span>%</p>
     <p class="pl-2">UV Index: <span id="uvindex" class="p-1"></span></p>
-</div>
+    </div>
 
 <!--Left Container-->
 <div class="col-sm-12 col-md-3 left-panel order-md-1">
     <container>
-        <div class="form-row">
+        <div class="box-1">
                <div class="form-group col-8">
                <label for="city-input">Search for a City</label>
                <input type="text" placeholder="City" class="form-control" id="city-input">
@@ -61,8 +62,8 @@
     
 <!--Daily Weather Forecast for 5 Days-->
 <h2>5 Day Forecast:</h2>
-<div class="col-12 five-day">
-    <div class="flex-container center">
+<div class="align-content">
+    <div class="flex-container">
         <div class="col-sm-10 col-md-4 col-lg-2 py-1 mx-3">
             <div class="card day-0 m-0 text-center">
                 <div class="card-body p-1">
@@ -127,11 +128,15 @@
 
 
 <!--recent searches-->
-    <div class="row.recent-search mt-3">
-        <div class="col-sm-12"></div>
+    <div class="row recent-search mt-3">
+        <div class="col-sm-12">
+            <h2>Recent Searches:</h2>
+        </div>
+    </div>
         
 <!--previous cities searched-->
-        <div class="row city-list m-0"></div>
+    <div class="row city-list m-0">
+    </div>
     </div>
 </main>
 

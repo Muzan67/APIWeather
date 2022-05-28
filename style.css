@@ -7,7 +7,7 @@
 }
 
 .header {
-    padding: 20px;
+    padding: 1.25rem;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
     color: rgb(280, 280, 280);
@@ -78,10 +78,15 @@ div.five-day, p.card-title {
     font-weight: bold;
     color:#fff;
     background-color: #19334d;
-    display: wrap
+    display: wrap;
+    align-content: flex-end;
 }
 
 .flex-container {
     display: flex;
-    align-content: center;
+    align-content: center; 
+}
+
+.box-1{
+    flex: 1;
 }
