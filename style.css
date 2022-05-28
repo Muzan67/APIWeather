@@ -78,8 +78,13 @@ div.five-day, p.card-title {
     font-weight: bold;
     color:#fff;
     background-color: #19334d;
+    display: wrap
 }
 
 .card {
     background-color: #0276fd;
+}
+
+.flex-container {
+    display: flex;
 }
