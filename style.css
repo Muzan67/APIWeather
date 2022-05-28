@@ -27,7 +27,25 @@ div.title h1 {
 
 main.dashboard {
     background-color: rgb(240, 240, 240);
+    min-height: 100vh;
+    display: grid;
+    grid-template-areas: "main-top" "left-sidebar" "main-bottom";     
+    gap: 1rem;
+    padding: 1rem;
 }
+
+.left-sidebar {
+    grid-area: left-sidebar;
+  }
+  
+  .main-bottom {
+    grid-area: main-bottom;
+  }
+  
+  .main-top {
+    grid-area: main-top;
+  }
+  
 
 /* Left Container */
 
@@ -87,6 +105,3 @@ div.five-day, p.card-title {
     align-content: center; 
 }
 
-.box-1{
-    flex: 1;
-}
