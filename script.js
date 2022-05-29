@@ -16,7 +16,7 @@ const cityListEl = $("div.cityList");
 // Input City //
 const cityInput =$("#city-input");
 
-// Previously Searched Cities //
+// Past Cities Searched //
 let pastCities = [];
 
 function compare(a,b) {
@@ -32,7 +32,7 @@ function compare(a,b) {
         return comparison;
     }
 
-    // Load Cities //
+// Load Cities //
     function loadCities() {
         const storedCities = JSON.parse(localStorage.getItem("pastCities"));
         if (storedCities) {
@@ -40,9 +40,22 @@ function compare(a,b) {
         }
     }
 
-    // Store Cities //
-    function loadCities() {
-        const storedCities = JSON.parse(localStorage.getItem("pastCities"));
+// Store Cities //
+    function storeCities() {
+        localStorage.setItem("pastCities", JSON.stringify(pastCities));
+    }
+
+// API Weather Calls from openweathermap.org //
+    function buildURLFromInputs(city) {
+        if (city) {
+            return `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`;
+        }
+    }
+    
+    function buildURLFormId(id) {
+        return `https://api.openweathermap.org/data/2.5/weather?id=${id}&appid=${apiKey}`;
+    }
+
 
 
 
