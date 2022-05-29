@@ -32,8 +32,17 @@ function compare(a,b) {
         return comparison;
     }
 
-    
+    // Load Cities //
+    function loadCities() {
+        const storedCities = JSON.parse(localStorage.getItem("pastCities"));
+        if (storedCities) {
+            pastCities = storedCities;
+        }
+    }
 
+    // Store Cities //
+    function loadCities() {
+        const storedCities = JSON.parse(localStorage.getItem("pastCities"));
 
 
 
