@@ -33,20 +33,20 @@
 <!--Current Weather-->
 <div class="col-12 currentWeather p-0">
     <div class="d-flex cityName">
-        <h2 id="city"></h2>
+        <h2 id="cityName"></h2>
         <h3 id="date"></h3>
         <img id="weather-icon"/>
     </div>
     <p class="pl-2">Temp: <span id="temp"></span>&degF</p>
     <p class="pl-2">Wind: <span id="wind"></span>MPH</p>
-    <p class="pl-2">Humidity: <span id="humidity"></span>%</p>
+    <p class="pl-2">Humidity: <span id="humidity"><span class="humidity"></span>%</p>
     <p class="pl-2">UV Index: <span id="uvindex" class="p-1"></span></p>
     </div>
 
 <!--Left Container-->
 <div class="col-sm-12 col-md-3 left-panel order-md-1">
     <container>
-        <div class="box-1">
+        <div class="row">
                <div class="form-group col-8">
                <label for="city-input">Search for a City</label>
                <input type="text" placeholder="City" class="form-control" id="city-input">
@@ -72,6 +72,7 @@
                     <p class="card-subtitle mb-2 text-muted">Temp: <span class="fiveDay-temp"></span>&degF</p>
                     <p class="card-subtitle mb-2 text-muted">Wind: <span class="fiveDay-temp"></span>MPH</p>
                     <p class="card-subtitle mb-2 text-muted">Humidity: <span class="fiveDay-humid"></span>%</p>
+                    <p class="card-subtitle mb-2 text-muted">Weather: <img id="weather-icon"></img></p>
                 </div>
             </div>
         </div>
@@ -84,6 +85,7 @@
                     <p class="card-subtitle mb-2 text-muted">Temp: <span class="fiveDay-temp"></span>&degF</p>
                     <p class="card-subtitle mb-2 text-muted">Wind: <span class="fiveDay-temp"></span>MPH</p>
                     <p class="card-subtitle mb-2 text-muted">Humidity: <span class="fiveDay-humid"></span>%</p>
+                    <p class="card-subtitle mb-2 text-muted">Weather: <img id="weather-icon"></img></p>
                 </div>
             </div>
         </div>
@@ -96,6 +98,7 @@
                     <p class="card-subtitle mb-2 text-muted">Temp: <span class="fiveDay-temp"></span>&degF</p>
                     <p class="card-subtitle mb-2 text-muted">Wind: <span class="fiveDay-temp"></span>MPH</p>
                     <p class="card-subtitle mb-2 text-muted">Humidity: <span class="fiveDay-humid"></span>%</p>
+                    <p class="card-subtitle mb-2 text-muted">Weather: <img id="weather-icon"></img></p>
                 </div>
             </div>
         </div>
@@ -108,6 +111,7 @@
                     <p class="card-subtitle mb-2 text-muted">Temp: <span class="fiveDay-temp"></span>&degF</p>
                     <p class="card-subtitle mb-2 text-muted">Wind: <span class="fiveDay-temp"></span>MPH</p>
                     <p class="card-subtitle mb-2 text-muted">Humidity: <span class="fiveDay-humid"></span>%</p>
+                    <p class="card-subtitle mb-2 text-muted">Weather: <img id="weather-icon"></img></p>
                 </div>
             </div>
         </div>
@@ -120,6 +124,7 @@
                     <p class="card-subtitle mb-2 text-muted">Temp: <span class="fiveDay-temp"></span>&degF</p>
                     <p class="card-subtitle mb-2 text-muted">Wind: <span class="fiveDay-temp"></span>MPH</p>
                     <p class="card-subtitle mb-2 text-muted">Humidity: <span class="fiveDay-humid"></span>%</p>
+                    <p class="card-subtitle mb-2 text-muted">Weather: <img id="weather-icon"></img></p>
                 </div>
             </div>
         </div>
