@@ -12,3 +12,5 @@ https://dev.to/areeburrub/using-weather-api-with-javascript-3a04 - guidance on h
 https://www.sitepoint.com/sort-an-array-of-objects-in-javascript/ - How to Sort an array of opjects using thecompare function 
 
 https://nekocalc.com/px-to-rem-converter - I used this website to convert Pixels to Rem for my style.css
+
+https://www.verywellhealth.com/know-your-uv-index-1069524 - Used the UV Index Number, Exposure Level, Color Code for function. 
