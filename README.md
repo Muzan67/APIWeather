@@ -14,3 +14,5 @@ https://www.sitepoint.com/sort-an-array-of-objects-in-javascript/ - How to Sort 
 https://nekocalc.com/px-to-rem-converter - I used this website to convert Pixels to Rem for my style.css
 
 https://www.verywellhealth.com/know-your-uv-index-1069524 - Used the UV Index Number, Exposure Level, Color Code for function. 
+
+![06-server-side-apis-homework-demo](https://user-images.githubusercontent.com/102841726/170908932-92474259-e741-48c9-9223-8e3f3435731c.png)
