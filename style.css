@@ -7,7 +7,7 @@
 }
 
 .header {
-    padding: 1.25rem;
+    padding: 3rem;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
     color: rgb(280, 280, 280);
@@ -27,25 +27,11 @@ div.title h1 {
 
 main.dashboard {
     background-color: rgb(240, 240, 240);
-    min-height: 100vh;
-    display: grid;
-    grid-template-areas: "main-top" "left-sidebar" "main-bottom";     
+    min-height: fit-content;
+    min-width: fit-content;
     gap: 1rem;
-    padding: 1rem;
+    background-image: url('https://source.unsplash.com/1600x1400/?weather');
 }
-
-.left-sidebar {
-    grid-area: left-sidebar;
-  }
-  
-  .main-bottom {
-    grid-area: main-bottom;
-  }
-  
-  .main-top {
-    grid-area: main-top;
-  }
-  
 
 /* Left Container */
 

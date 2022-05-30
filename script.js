@@ -6,11 +6,11 @@ $(document).ready(function() {
     // Display Weather //
     const cityEl = $("#city-search-form");
     const dateEl = $("#date");
-    const weatherIconEl = $("img#weather-icon");
-    const temperatureEl = $("span#temperature");
-    const humidityEl = $("span#whumidity")
-    const windEl = $("span#wind");
-    const uvIndexEl = $("span#uv-index");
+    const weatherIconEl = $("#weather-icon");
+    const temperatureEl = $("#temp");
+    const humidityEl = $("#humidity")
+    const windEl = $("#wind");
+    const uvIndexEl = $("#uvindex");
     const cityListEl = $("div.cityList");
     const cityInput =$("#city-input");
     let pastCities = [];
@@ -63,6 +63,7 @@ $(document).ready(function() {
             let cityBtn = $('<button>').addClass('btn btn-light city-btn').text(location.city);
             cityDiv.append(cityBtn);
             cityListEl.append(cityDiv);
+            
         });
     }
     
@@ -137,8 +138,9 @@ $(document).ready(function() {
     
                 for (let i = 0; i <= 5; i++) {
                     let currDay = fiveDay[i];
+                    //console.log (currDay.weather[0].icon)
                     $(`div.day-${i} .card-title`).text(moment.unix(currDay.dt).format('L'));
-                    $(`div.day-${i} .fiveDay-img`).attr(
+                    $(`div.day-${i} .five-day-img`).attr(
                         'src',
                         `http://openweathermap.org/img/wn/${currDay.weather[0].icon}.png`
                     ).attr('alt', currDay.weather[0].description);
