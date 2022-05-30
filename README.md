@@ -1,8 +1,8 @@
 # APIWeather
+The Weather App has been created for the user who is looking to plan their travel based off of the weather conditions. Upon making a search through through multiple cities using the weather app the traveler can best plan their trip accordingly.
 
-
-# Instalation
-
+# Installation
+The criteria is met where if the user would like to travel, they can look up multiple cities to plan their trip, giving them a 5 day results of the weather, temperature, humidity, and accordingly based off of the results of the weather. The users previous cities that they searched for remains below in case they would like to return to look at the city again. 
 
 # Credit
 https://home.openweathermap.org/api_keys - Created an API Key to retreive data from website. 

@@ -62,8 +62,7 @@ $(document).ready(function() {
             let cityDiv = $('<div>').addClass('col-12 city');
             let cityBtn = $('<button>').addClass('btn btn-light city-btn').text(location.city);
             cityDiv.append(cityBtn);
-            cityListEl.append(cityDiv);
-            
+            cityListEl.append(cityDiv);   
         });
     }
     
