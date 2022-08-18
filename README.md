@@ -66,6 +66,7 @@ To install this application, clone the code into your terminal for the respectiv
 ## Technologies Used
 
 <<<<<<< HEAD
+
 - HTML5
 - CSS
 - Javascript
@@ -73,9 +74,6 @@ To install this application, clone the code into your terminal for the respectiv
 
 # Screenshot of API Weather
 
-![Screen Capture 273 - API Weather Dashboard - muzan67 github io](https://user-images.githubusercontent.com/102841726/185286557-b7a245bd-f14f-4a65-9d0a-61f111fbf328.jpg)
-=======
-https://www.verywellhealth.com/know-your-uv-index-1069524 - Used the UV Index Number, Exposure Level, Color Code for function. 
-
 ![06-server-side-apis-homework-demo](https://user-images.githubusercontent.com/102841726/170908932-92474259-e741-48c9-9223-8e3f3435731c.png)
->>>>>>> bf7c2f77fe50a00e9bac303e85cfb9b2eab683b7
+
+> > > > > > > bf7c2f77fe50a00e9bac303e85cfb9b2eab683b7
