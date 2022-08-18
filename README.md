@@ -65,8 +65,6 @@ To install this application, clone the code into your terminal for the respectiv
 
 ## Technologies Used
 
-<<<<<<< HEAD
-
 - HTML5
 - CSS
 - Javascript
@@ -74,6 +72,4 @@ To install this application, clone the code into your terminal for the respectiv
 
 # Screenshot of API Weather
 
-![06-server-side-apis-homework-demo](https://user-images.githubusercontent.com/102841726/170908932-92474259-e741-48c9-9223-8e3f3435731c.png)
-
-> > > > > > > bf7c2f77fe50a00e9bac303e85cfb9b2eab683b7
+![Screen Capture 273 - API Weather Dashboard - muzan67 github io](https://user-images.githubusercontent.com/102841726/185287220-cf09a654-c6e0-446c-85b0-aac47e8e146b.jpg)
